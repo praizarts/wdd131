@@ -6,7 +6,7 @@
 --light:#f4f4f4;
 --white:#ffffff;
 --orange: #e3ac14;
---green: #08234b;;
+--navy: #08234b;;
 --radius:8px;
 
 }
@@ -19,8 +19,6 @@ box-sizing:border-box;
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: var(--light-gray);
-  color: var(--dark);
 }
 
 /* ===== HEADER ===== */
@@ -166,7 +164,7 @@ margin-bottom:10px;
 }
 
 li a {
-color:var(--green);
+color:var(--navy);
 text-decoration:underline;
 font-size: 18px;
 }
