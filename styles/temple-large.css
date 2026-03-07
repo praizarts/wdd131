@@ -1,0 +1,44 @@
+@media (min-width: 768px) {
+
+/* Hide hamburger */
+#hamburger {
+  display: none;
+}
+
+/* Header layout */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--spacing-medium);
+}
+
+.header-top {
+  padding: 1rem 0;
+}
+
+/* Navigation visible */
+#primary-nav {
+  display: block;
+}
+
+#primary-nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+#primary-nav li {
+  padding: 0;
+ }
+
+/* Gallery grid */
+.gallery {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+figure img {
+  width: 100%;
+}
+
+}
