@@ -105,7 +105,6 @@ header {
 
 /* MAIN */
 main {
-  max-width: var(--max-width);
   margin: auto;
   padding: var(--spacing-medium);
 }
