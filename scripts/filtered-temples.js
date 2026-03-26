@@ -60,8 +60,8 @@ const temples = [
   {
     templeName: "Tokyo Japan",
     location: "Tokyo, Japan",
-    dedicated: "2004, January, 11",
-    area: 17500,
+    dedicated: "1980, October, 27–29",
+    area:  5016,
     imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/tokyo-japan/400x250/tokyo_japan_temple-entry.jpeg"
   },
@@ -76,8 +76,8 @@ const temples = [
   {
     templeName: "Toronto Ontario",
     location: "Toronto, Ontario, Canada",
-    dedicated: "1985, August, 24",
-    area: 19184,
+    dedicated: "1990, August, 25-27",
+    area: 5162,
     imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/toronto-ontario/400x250/toronto-temple-lds-854102-wallpaper.jpg"
   },
@@ -92,8 +92,8 @@ const temples = [
   {
     templeName: "Boise Idaho",
     location: "Boise, Idaho, United States",
-    dedicated: "1958, April, 20-22",
-    area: 4204,
+    dedicated: "1984, May, 25-30",
+    area: 3332,
     imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/boise-idaho/2018/400x250/3-Boise-Idaho-Temple-1198985.jpg"
   }
