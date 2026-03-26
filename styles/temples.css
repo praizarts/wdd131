@@ -115,29 +115,51 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
-/* Gallery */
-.gallery {
+h1 {
+    margin-bottom: 1rem;
+}
+
+/* Temple Grid Layout */
+#temples {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
 }
 
-/* Figure */
-figure {
+/* Temple Card */
+#temples section {
+  background-color: #ffffff;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  transition: transform 0.3s ease;
 }
 
-figure img {
-  width: 100%;
-  height: auto;
+#temples section:hover {
+  transform: scale(1.02);
 }
 
-figcaption {
-  margin-top: 0.5rem;
-  color: var(--color-dark);
+/* Temple Text */
+#temples h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+#temples p {
+  margin: 0.25rem 0;
   font-size: 0.95rem;
-  font-weight: 500;
 }
+
+/* Temple Images */
+#temples img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 0.75rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 
 /* FOOTER */
 footer {
