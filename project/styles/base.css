@@ -498,3 +498,83 @@ body {
   line-height: 1.5;
   font-weight: 600;
 }
+
+.core-values-section {
+  background-color: var(--bg-color);
+  padding: 80px 20px;
+  text-align: center; 
+  font-family: 'Inter', sans-serif; 
+}
+
+.core-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Section Header */
+.section-label {
+  color: var(--deep-space-blue);
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title {
+  font-size: 48px; 
+  font-weight: 800;
+  color: var(--turf-green);
+  margin-bottom: 60px;
+}
+
+/* Grid Layout */
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* Cards */
+.value-card {
+  background-color: #333333; 
+  padding: 40px 25px;
+  border-radius: 20px;
+  text-align: left;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+}
+
+/* Number Badge */
+.number {
+  width: 40px;
+  height: 40px;
+  background-color: var(--bg-color); 
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+/* Title */
+.value-card h3 {
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Text */
+.value-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #a0a0a0; 
+}
