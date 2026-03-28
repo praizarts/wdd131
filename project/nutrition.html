@@ -12,6 +12,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 <script src="scripts/main.js" defer></script>
+<script src="scripts/bmi.js" defer></script>
+<script src="scripts/recipes.js" defer></script>
 </head>
 
 <body>
@@ -45,8 +47,49 @@
 
 <!--Main Content-->
 <main>
+  <section class="nutri-section">
+    <div class="nutri-container">
 
+      <div class="nutri-image-wrapper">
+        <img src="images/fruity.png" alt="A collection of fruits" class="nutri-image">
+      </div>
 
+      <div class="nutri-text-wrapper">
+        <p class="nutri-paragraph">
+          Good nutrition is the foundation of a healthy life. The food you eat provides your body with the energy and nutrients it needs to function properly, grow, and stay strong. Making smart food choices every day can improve your overall well-being, boost your immunity, and reduce the risk of chronic diseases. At Healthy Living Hub, we believe that everyone deserves access to reliable nutrition information and practical tips for healthy eating. Our Nutrition Guide is designed to help you navigate the world of food and make informed decisions that support your health goals. Whether you're looking to lose weight, manage a health condition, or simply eat better, our guide has something for you.
+        </p>
+        <p class="nutri-paragraph">
+         A well-nourished body is better equipped to fight infections, maintain a healthy weight, and support vital organs such as the heart, brain, and digestive system. Proper nutrition also plays a key role in physical development, especially for children, and helps adults maintain strength and vitality as they age. According to the World Health Organization, a healthy diet helps protect against malnutrition in all its forms as well as noncommunicable diseases like heart disease, diabetes, and cancer. <a href="https://www.who.int/news-room/fact-sheets/detail/healthy-diet" class="references">[1]</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="bmi-calculator" class="calculator-container">
+            <h2>BMI Calculator</h2>
+            <form id="bmi-form">
+                <label for="weight">Weight (kg):</label>
+                <input type="number" id="weight" required>
+                <label for="height">Height (cm):</label>
+                <input type="number" id="height" required>
+                <button type="button" id="calculate-btn">Calculate</button>
+            </form>
+            <div id="bmi-result"></div>
+        </section>
+
+        <hr>
+
+        <section id="recipes">
+            <h2>Healthy Recipes</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn" data-category="all">All</button>
+                <button class="filter-btn" data-category="breakfast">Breakfast</button>
+                <button class="filter-btn" data-category="lunch">Lunch</button>
+                <button class="filter-btn" data-category="dinner">Dinner</button>
+            </div>
+            <div id="recipe-grid" class="nutri-grid-container">
+                </div>
+        </section>
 </main>
 
 <!--Footer-->
