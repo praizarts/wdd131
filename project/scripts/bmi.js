@@ -38,6 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="bmi-card" style="border-top: 5px solid ${color}; padding: 10px; background: #fff;">
                     <p>Your BMI is <strong>${bmi}</strong></p>
                     <p>Status: <span style="color: ${color}; font-weight: bold;">${category}</span></p>
+                     <p class="disclaimer">Note: BMI is a general indicator and does not account for muscle mass or body composition.</p>
+
                 </div>
             `;
         });

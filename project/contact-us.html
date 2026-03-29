@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Healthy Living Hub | Contact Us</title>
+<meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Ignatia Mbachu | Web development and">
+<meta name="author" content= "Ignatia Mbachu">
+<link rel="stylesheet" href="styles/base.css">
+<link rel="stylesheet" href="styles/base-larger.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<script src="scripts/contact.js" defer></script>
+
+</head>
+
+<body>
+    <!--Header-->
+ <header class="healthy-header">
+            <div class="header-left">
+                <div class="logo-block">
+                   <div class="logo-container">
+                    <img src="images/health-insurance.png" alt="Healthy Living Hub Logo" class="brand-logo-img">
+                    </div>
+                    <div class="brand-text">
+                        <h2 class="main-title">Healthy Living Hub</h2>
+                        <p class="sub-title">Be Healthy, Live Well</p>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="nutrition.html">Nutrition Guide</a></li>
+                <li><a href="healthy-habits.html">Healthy Habits</a></li>
+                <li><a href="contact-us.html" class="active">Contact Us</a></li>
+            </ul>
+
+            <div class="donate-button-container">
+                <a href="#donate" class="donate-btn">Donate</a>
+            </div>
+        </header>
+
+
+<!--Main Content-->
+<main>
+    <section class="contact-section">
+  <div class="contact-container">
+    
+    <!-- HEADER -->
+    <div class="contact-header">
+      <span class="contact-subtitle">Let's Talk</span>
+      <h2>Contact Us</h2>
+      <p>
+        Your journey to a healthier life matters to us. At Healthy Living Hub, we’re here to support, guide, and inspire you every step of the way. Have questions about nutrition, fitness, or wellness? Want to share feedback or suggestions? We’d love to hear from you. Simply fill out the form below, and we’ll get back to you as soon as possible. Let’s work together to build healthier habits and a better lifestyle-starting today 💚
+      </p>
+    </div>
+
+    <div class="contact-wrapper">
+      
+      <!-- FORM -->
+      <div class="contact-form">
+        <h5>Send us a message</h5>
+
+        <form id="contactForm" novalidate>
+            <div class="row">
+            <div class="field">
+            <input id="firstName" type="text" placeholder="First name">
+            <small class="error"></small>
+            </div>
+
+            <div class="field">
+            <input id="lastName" type="text" placeholder="Last name">
+            <small class="error"></small>
+            </div>
+        </div>
+
+        <div class="field">
+            <input id="email" type="text" placeholder="Email address">
+            <small class="error"></small>
+        </div>
+        <div class="field">
+            <textarea id="message" placeholder="Your message" rows="4"></textarea>
+            <small class="error"></small>
+        </div>
+        <div class="btn-wrapper">
+            <button type="submit">Send message</button>
+        </div>
+        <p id="formSuccess" class="success-message"></p>
+        </form>
+      </div>
+
+      <!-- CONTACT INFO -->
+      <div class="contact-info">
+        <div class="info-block">
+          <h5>Address</h5>
+          <p>#5 Gbemi Oluwa Close, <br> Off Allen Avenue, Lagos, Nigeria</p>
+        </div>
+
+        <div class="info-block">
+          <h5>Phone</h5>
+          <p>+234 9069444420</p>
+        </div>
+
+        <div class="info-block">
+          <h5>Email</h5>
+          <p>info@healthylivinghub.com</p>
+        </div>
+
+        <div class="info-block">
+          <h5>Socials</h5>
+          <div class="socials">
+            <!-- Pinterest -->
+            <a href="#">
+              <svg viewBox="0 0 16 16">
+                <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606..."></path>
+              </svg>
+            </a>
+
+            <!-- Twitter -->
+            <a href="#">
+              <svg viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003..."></path>
+              </svg>
+            </a>
+
+            <!-- Facebook -->
+            <a href="#">
+              <svg viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05..."></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</main>
+
+<!--Footer-->
+<footer class="footer">
+  <nav class="footer-nav">
+    <a href="index.html">Home</a>
+    <a href="about-us.html">About Us</a>
+    <a href="nutrition.html">Nutrition Guide</a>
+    <a href="healthy-habits.html">Healthy Habits</a>
+    <a href="contact-us.html">Contact Us</a>
+  </nav>
+
+  <hr />
+
+  <div class="footer-bottom">
+    <p>© <span id="currentyear"></span> 🌸 Ignatia Mbachu 🌸 Lagos, Nigeria</p>
+    <p id="lastModified"></p>
+    <p><a href="references.html" class="references">References</a></p>
+  </div>
+</footer>
+
+
+</body>
+</html>

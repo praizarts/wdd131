@@ -6,6 +6,7 @@
     --deep-space-blue: #102E4A;
     --turf-green: #157145;
     --white-smoke: #F5F5F5;
+    --gray-color: #777;
 }
 
 * {
@@ -21,50 +22,53 @@ body {
     line-height: 1.6;
 }
 
-        .healthy-header {
-            background-color: var(--primary-color);
-            color: var(--white-smoke);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 25px 40px;
+.healthy-header {
+    background-color: var(--primary-color);
+    color: var(--white-smoke);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
             
-        }
+}
 
-        /* --- Left Section --- */
-        .header-left {
-            display: flex;
-            align-items: center;
-        }
+/* --- Left Section --- */
+.header-left {
+  display: flex;
+  align-items: center;
+}
 
-        .logo-block {
-            display: flex;
-            align-items: center;
-            gap: 15px; 
-        }
+.logo-block {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+}
 
-        .brand-text {
-            line-height: 1.2;
-        }
-    .brand-text h2 {
-      font-size: 24px;
-      font-weight: bold;
-      font-family: "Poppins", sans-serif;
-    }
+.brand-text {
+  line-height: 1.2;
+}
+    
+.brand-text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
 
-    .brand-text p {
-      font-size: 16px;
-      color: var(--secondary-color);
-      font-family: "Poppins", sans-serif;
-      text-align: center;
-    }
+    
+.brand-text p {
+  font-size: 16px;
+  color: var(--secondary-color);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
 
-    .logo-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden; 
-    }
+  
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+}
 
 .brand-logo-img {
     width: 70px;  
@@ -74,208 +78,208 @@ body {
 }
 
 .nav-links {
-            display: flex;
-            gap: 30px; 
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
+  display: flex;
+  gap: 30px; 
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-        .nav-links a {
-            text-decoration: none;
-            color: #ffffff;
-            font-size: 18px;
-            font-weight: 400;
-            transition: color 0.2s;
-            font-family: "Open Sans", sans-serif;
-        }
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  transition: color 0.2s;
+  font-family: "Open Sans", sans-serif;
+}
 
-        .nav-links a:hover {
-            color: var(--secondary-color); 
-        }
+.nav-links a:hover {
+    color: var(--secondary-color); 
+    }
 
-        .nav-links a.active {
-            color: var(--secondary-color); 
-            font-weight: 600;
-        }
+.nav-links a.active {
+  color: var(--secondary-color); 
+  font-weight: 600;
+}
 
-        /* --- Right Section (Button only) --- */
-        .donate-button-container {
-            display: flex;
-            align-items: center;
-        }
+/* --- Right Section (Button only) --- */
+.signup-button-container {
+  display: flex;
+  align-items: center;
+}
 
-        .donate-btn {
-            background-color: var(--secondary-color); 
-            color: var(--text-color);
-            padding: 10px 20px;
-            border-radius: 20px; 
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 16px;
-            transition: background-color 0.2s, transform 0.1s;
-        }
+.signup-btn {
+  background-color: var(--secondary-color); 
+  color: var(--text-color);
+  padding: 15px 30px;
+  border-radius: 20px; 
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.2s, transform 0.1s;
+}
 
-        .donate-btn:hover {
-            background-color: var(--turf-green);
-            color: var(--white-smoke); 
-        }
+.signup-btn:hover {
+  background-color: var(--turf-green);
+  color: var(--white-smoke); 
+}
 
-        .donate-btn:active {
-            transform: translateY(1px); 
-        }
+.signup-btn:active {
+  transform: translateY(1px); 
+}
 
-         .hero-container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 80px 20px;
-            gap: 40px;
-        }
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  gap: 40px;
+}
 
-        /* --- Left Side: Visuals --- */
-        .hero-image {
-            flex: 1;
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+/* --- Left Side: Visuals --- */
+.hero-image {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-        /* Background Circles */
-        .circle-outer {
-            width: 450px;
-            height: 450px;
-            background-color: var(--deep-space-blue);
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-        }
+/* Background Circles */
+.circle-outer {
+  width: 450px;
+  height: 450px;
+  background-color: var(--deep-space-blue);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 
-        .circle-inner {
-            width: 380px;
-            height: 380px;
-            background-color: var(--secondary-color);
-            border-radius: 50%;
-        }
+.circle-inner {
+  width: 380px;
+  height: 380px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+}
 
-        /* Main Character Image */
-        .main-img {
-            position: absolute;
-            bottom: 0;
-            width: 110%; 
-            z-index: 2;
-        }
-
-       
-        .floating-fruit {
-            position: absolute;
-            top: 60px;
-            right: 0;
-            width: 140px;
-            height: 140px;
-            border-radius: 50%;
-            border: 6px solid #fff;
-            overflow: hidden;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-            z-index: 3;
-        }
-
-        .floating-fruit img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .decor {
-            position: absolute;
-            z-index: 4;
-        }
-        .star { 
-            top: 10%; 
-            right: 15%; 
-            color: var(--secondary-color); 
-            font-size: 24px; 
-        }
-        .dot-pink { 
-            bottom: 20%; 
-            left: -10px; 
-            width: 25px; 
-            height: 25px; 
-            background: #e91e63; 
-            border-radius: 50%; }
-        .apple-badge { 
-            bottom: 60px; 
-            left: -20px; 
-            background: var(--white-smoke); 
-            padding: 10px; 
-            border-radius: 50%;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-        }
-
-        /* --- Right Side: Text --- */
-        .hero-text {
-            flex: 1;
-        }
-
-        .hero-text h1 {
-            font-size: 48px;
-            line-height: 1.2;
-            margin-bottom: 20px;
-            color: var(--text-color);
-        }
-
-        .dot-indicator {
-            display: flex;
-            gap: 8px;
-            margin-bottom: 30px;
-        }
-
-        .dot { width: 16px; 
-            height: 16px; 
-            border-radius: 50%; 
-        }
-        .dot.y { background: #ffcc00; }
-        .dot.b { background: #42a5f5; }
-        .dot.p { background: #e91e63; }
-        .dot.o { background: #ff7043; }
-
-        .hero-text p {
-            font-size: 17px;
-            line-height: 1.6;
-            color: var(--text-gray);
-            margin-bottom: 20px;
-        }
-
-        .btn-learn {
-            display: inline-block;
-            background-color: var(--primary-color);
-            color: white;
-            padding: 16px 40px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: 600;
-            margin-top: 10px;
-            transition: transform 0.2s;
-        }
-
-        .btn-learn:hover {
-            transform: scale(1.05);
-            filter: brightness(1.1);
-        }
+/* Main Character Image */
+.main-img {
+  position: absolute;
+  bottom: 0;
+  width: 110%; 
+  z-index: 2;
+}
 
 
-        .tips {
-            text-align: center;
-            font-size: 28px;
-            margin: 60px 0 30px;
-            color: var(--text-color);
-            font-family: "Poppins", sans-serif;
-        }
+.floating-fruit {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  z-index: 3;
+}
+
+.floating-fruit img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.decor {
+  position: absolute;
+  z-index: 4;
+}
+.star { 
+  top: 10%; 
+  right: 15%; 
+  color: var(--secondary-color); 
+  font-size: 24px; 
+}
+.dot-pink { 
+  bottom: 20%; 
+  left: -10px; 
+  width: 25px; 
+  height: 25px; 
+  background: #e91e63; 
+  border-radius: 50%; }
+.apple-badge { 
+  bottom: 60px; 
+  left: -20px; 
+  background: var(--white-smoke); 
+  padding: 10px; 
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* --- Right Side: Text --- */
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.dot-indicator {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 30px;
+}
+
+.dot { width: 16px; 
+  height: 16px; 
+  border-radius: 50%; 
+}
+.dot.y { background: #ffcc00; }
+.dot.b { background: #42a5f5; }
+.dot.p { background: #e91e63; }
+.dot.o { background: #ff7043; }
+
+.hero-text p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--text-gray);
+  margin-bottom: 20px;
+}
+
+.btn-learn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 16px 40px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 10px;
+  transition: transform 0.2s;
+}
+
+.btn-learn:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+
+.tips {
+  text-align: center;
+  font-size: 28px;
+  margin: 60px 0 30px;
+  color: var(--text-color);
+  font-family: "Poppins", sans-serif;
+}
 
 .card-container {
   display: grid;
@@ -336,7 +340,7 @@ body {
   text-align: center;
   padding: 40px 20px;
   font-family: "Open Sans", sans-serif;
-  margin-top: 2rem;
+ 
 }
 
 .footer-nav {
@@ -425,7 +429,7 @@ body {
 .description {
   font-size: 17px;
   line-height: 1.8;
-  color: #777;
+  color:var(--gray-color);
   margin-bottom: 30px;
   font-family: "Open sans", sans-serif;
 }
@@ -539,7 +543,7 @@ body {
 
 /* Cards */
 .value-card {
-  background-color: #333333; 
+  background-color: var(--text-color); 
   padding: 40px 25px;
   border-radius: 20px;
   text-align: left;
@@ -567,7 +571,7 @@ body {
 /* Title */
 .value-card h3 {
   font-size: 22px;
-  color: #ffffff;
+  color: var(--white-smoke);
   margin-bottom: 15px;
   font-weight: 700;
   text-align: center;
@@ -577,17 +581,17 @@ body {
 .value-card p {
   font-size: 15px;
   line-height: 1.6;
-  color: #a0a0a0; 
+  color: var(--white-smoke); 
 }
 
 /* --Nutrition Guide Page -- */
 
 /* Section styling */
-.nutri-section {
+.nutri-section, .habits-section {
   padding: 80px 20px;
 }
 
-.nutri-container {
+.nutri-container, .habits-container {
   display: flex;
   align-items: center; 
   justify-content: center; 
@@ -597,18 +601,18 @@ body {
 }
 
 /* Left Column Styling */
-.nutri-image-wrapper {
+.nutri-image-wrapper, .habits-image-wrapper {
   flex: 0 0 30%;
 }
 
-.nutri-image {
+.nutri-image, .habits-image {
   max-width: 600px; 
   height: auto; 
   display: block; 
 }
 
 /* Right Column Styling */
-.nutri-text-wrapper {
+.nutri-text-wrapper, .habits-text-wrapper {
  flex: 0 0 70%;
 }
 
@@ -620,7 +624,7 @@ body {
 
 /* BMI Calculator Container */
 .calculator-container {
-    background-color: #F1F8E9; /* Neutral Off-white/Mint */
+    background-color: #F1F8E9; 
     border: 1px solid #C8E6C9;
     border-radius: 12px;
     padding: 2rem;
@@ -630,7 +634,7 @@ body {
 }
 
 .calculator-container h2 {
-    color: #2E7D32; 
+    color: var(--turf-green); 
     text-align: center;
     margin-top: 0;
 }
@@ -655,7 +659,7 @@ body {
 }
 
 #calculate-btn {
-    background-color: #2E7D32;
+    background-color: var(--turf-green);
     color: white;
     border: none;
     padding: 12px;
@@ -666,7 +670,8 @@ body {
 }
 
 #calculate-btn:hover {
-    background-color: #81C784; /* Secondary Sage Green */
+    background-color: var(--deep-space-blue); 
+    color: var(--white-smoke);
 }
 
 #bmi-result {
@@ -674,6 +679,7 @@ body {
     text-align: center;
     font-weight: bold;
 }
+
 
 /* Filter Button Row */
 .filter-buttons {
@@ -685,9 +691,9 @@ body {
 }
 
 .filter-btn {
-    background-color: white;
-    border: 2px solid #2E7D32;
-    color: #2E7D32;
+    background-color: var(--white-smoke);
+    border: 2px solid var(--turf-green);
+    color: var(--turf-green);
     padding: 15px 30px;
     cursor: pointer;
     font-weight: 600;
@@ -695,7 +701,7 @@ body {
 }
 
 .filter-btn:hover, .filter-btn.active {
-    background-color: #2E7D32;
+    background-color: var(--turf-green);
     color: white;
 }
 
@@ -703,10 +709,9 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr); 
     gap: 2rem;
-    margin-bottom: 4rem;
-    max-width: 1200px;
-    margin: 0 auto;        
+    max-width: 1200px;   
     padding: 0 20px;
+    margin: 2rem auto;
 }
 
 hr {
@@ -720,7 +725,7 @@ hr {
     display: flex;
     flex-direction: column;
     height: 100%; /* Equal height */
-    border: 1px solid #ddd;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     border-radius: 8px;
     overflow: hidden;
     background: white;
@@ -739,7 +744,7 @@ hr {
 
 .recipe-info h3 {
     margin: 0 0 0.5rem 0;
-    color: #2E7D32;
+    color: var(--turf-green);
 }
 
 #recipes h2 {
@@ -752,10 +757,340 @@ hr {
 
 .category-tag {
     display: inline-block;
-    background: #F1F8E9;
-    color: #2E7D32;
+    background: var(--primary-color);
+    color: var(--white-smoke);
     padding: 2px 8px;
     font-size: 0.75rem;
     border-radius: 4px;
     margin-bottom: 10px;
+}
+
+/* --Healthy Habits Page -- */
+
+.habits-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-direction: row-reverse; 
+}
+
+.habits-image-wrapper,
+.habits-text-wrapper {
+  flex: 1;
+}
+
+.habits-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* --Healthy Habits Page -- */
+
+.hydration-section {
+  padding: 3rem 1.5rem;
+  background-color: var(--text-color);
+}
+
+.hydration-container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.hydration-text,
+.hydration-tracker {
+  flex: 0 0 50%;
+}
+
+.hydration-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+}
+
+.hydration-text p {
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+  color: var(--white-smoke);
+  font-size: 1rem;
+  font-family: "Open sans", sans-serif;
+}
+
+/* Container Card */
+#hydration-tracker {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Heading */
+#hydration-tracker h2 {
+  color: #2c7a7b;
+  margin-bottom: 0.5rem;
+}
+
+#hydration-tracker p {
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* Layout */
+.tracker-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Glass Display */
+.glass-display {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* Individual Glass */
+.glass {
+  width: 50px;
+  height: 70px;
+  border: 2px solid #2c7a7b;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+  background: #e6fffa;
+}
+
+/* Filled Glass Effect */
+.glass.filled::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #38b2ac;
+  animation: fillGlass 0.4s ease-in-out;
+}
+
+/* Fill Animation */
+@keyframes fillGlass {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+/* Counter Text */
+#glass-count {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Buttons */
+button {
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+/* Primary Button */
+#add-glass {
+  background-color: var(--deep-space-blue);
+  color: white;
+}
+
+#add-glass:hover {
+  background-color: var(--primary-color);
+}
+
+/* Secondary Button */
+.btn-secondary {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.btn-secondary:hover {
+  background-color: var(--white-smoke);
+}
+
+.contact-section {
+  padding: 60px 20px;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HEADER */
+.contact-header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.contact-subtitle {
+  color: var(--text-color);
+  font-size: 17px;
+  color: var(--turf-green);
+  font-weight: bold;
+}
+
+.contact-header h2 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.contact-header p {
+  color: var(--text-color);
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* LAYOUT */
+.contact-wrapper {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* FORM */
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form h5 {
+  margin-bottom: 15px;
+  color: var(--turf-green);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.row input {
+  flex: 1;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid var(--gray-color);
+  background: var(--bg-color);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-wrapper {
+  text-align: right;
+}
+
+button {
+  padding: 12px 20px;
+  background: var(--primary-color);
+  color: var(--white-smoke);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--deep-space-blue);
+}
+
+/* CONTACT INFO */
+.contact-info {
+  flex: 1;
+  min-width: 280px;
+}
+
+.info-block {
+  margin-bottom: 20px;
+}
+
+.info-block h5 {
+  margin-bottom: 5px;
+  color: var(--turf-green);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.info-block p {
+  color: var(--text-color);
+}
+
+/* SOCIALS */
+.socials {
+  display: flex;
+  gap: 10px;
+}
+
+.socials a {
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  color: var(--deep-space-blue);
+}
+
+.socials svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  height: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  color: var(--turf-green);
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* optional: input error highlight */
+input.error-border,
+textarea.error-border {
+  border: 1px solid red;
+}
+
+input.success-border,
+textarea.success-border {
+  border: 1px solid var(--turf-green);
 }

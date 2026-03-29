@@ -10,13 +10,14 @@
 }
 
 
+
 /* Responsive */
-        @media (max-width: 968px) {
-            .hero-container {
-                flex-direction: column;
-                text-align: center;
-            }
-            .circle-outer { width: 320px; height: 320px; }
-            .circle-inner { width: 270px; height: 270px; }
-            .dot-indicator { justify-content: center; }
-        }
+@media (max-width: 968px) {
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+}
+    .circle-outer { width: 320px; height: 320px; }
+    .circle-inner { width: 270px; height: 270px; }
+    .dot-indicator { justify-content: center; }
+}
