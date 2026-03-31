@@ -134,7 +134,7 @@ footer p {
 }
 
 .summary-box {
-    background: white;
+    background: var(--white-color);
     padding: 15px;
     border-radius: var(--border-radius);
     text-align: left;
