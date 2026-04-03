@@ -125,9 +125,7 @@ body {
   color: var(--white-smoke); 
 }
 
-.signup-btn:active {
-  transform: translateY(1px); 
-}
+
 
 .hero-container {
   display: flex;
