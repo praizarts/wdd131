@@ -72,6 +72,76 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+    /* ABOUT SECTION */
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-content img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  /* MISSION / VISION */
+  .about-card {
+    margin-bottom: 20px;
+  }
+
+  /* CORE VALUES */
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-title {
+    font-size: 36px;
+  }
+
+  /* NUTRITION & HABITS */
+  .nutri-container,
+  .habits-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nutri-image-wrapper,
+  .habits-image-wrapper,
+  .nutri-text-wrapper,
+  .habits-text-wrapper {
+    flex: 1 1 100%;
+  }
+
+  /* HYDRATION */
+  .hydration-container {
+    flex-direction: column;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .hydration-text,
+  .hydration-tracker {
+    flex: 1 1 100%;
+  }
+
+  /* CONTACT */
+  .contact-wrapper {
+    flex-direction: column;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .btn-wrapper {
+    text-align: center;
+  }
+
+  /* FOOTER */
+  .footer-nav {
+    gap: 15px;
+  }
+
 }
 
 /* Responsive */
@@ -149,6 +219,72 @@
     grid-template-columns: 1fr;
    
    }
+
+     /* GENERAL TEXT */
+  .text-content h2 {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  /* CORE VALUES */
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .value-card {
+    padding: 25px 15px;
+  }
+
+  /* BUTTONS */
+  .btn {
+    padding: 10px 16px;
+    font-size: 12px;
+  }
+
+  /* IMAGES */
+  .image-content img {
+    width: 100%;
+  }
+
+  /* RECIPE CARDS */
+  .recipe-card img {
+    height: 160px;
+  }
+
+  /* HYDRATION TRACKER */
+  .glass {
+    width: 40px;
+    height: 60px;
+  }
+
+  /* CONTACT */
+  .contact-header h2 {
+    font-size: 28px;
+  }
+
+  .contact-header p {
+    font-size: 14px;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 30px 10px;
+  }
+
+  .footer-nav a {
+    font-size: 12px;
+  }
+
+  .footer-bottom p {
+    font-size: 12px;
+  }
 
 }
 
